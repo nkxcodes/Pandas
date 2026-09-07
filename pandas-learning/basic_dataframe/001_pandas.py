@@ -18,3 +18,7 @@ print(df.tail())
 
 # Q7: Print the last 10 rows.
 print(df.tail(10))
+
+# Q8: Print the number of rows.
+print(len(df)) #or
+print(df.shape[0])
