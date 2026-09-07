@@ -6,3 +6,6 @@ df = pd.read_csv("pandas-learning/data/students.csv")
 
 # Q3: Print the entire DataFrame
 print(df)
+
+# Q4 Print the first five rows
+print(df.head())
