@@ -22,3 +22,6 @@ print(df.tail(10))
 # Q8: Print the number of rows.
 print(len(df)) #or
 print(df.shape[0])
+
+# Q9: Print the number of columns.
+print(df.shape[1])
