@@ -25,3 +25,6 @@ print(df.shape[0])
 
 # Q9: Print the number of columns.
 print(df.shape[1])
+
+# Q10: Find both rowa and columns using shape.
+print(df.shape)
