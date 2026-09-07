@@ -15,3 +15,6 @@ print(df.head(10))
 
 # Q6: Print the last 5 rows.
 print(df.tail())
+
+# Q7: Print the last 10 rows.
+print(df.tail(10))
