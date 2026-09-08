@@ -36,3 +36,6 @@ print(df.columns.tolist())
 # Q12: Print the DataFrame index.
 print(df.index) # or tolist()
 print(df.index.tolist())
+
+# Q13: Print the data types of every columns.
+print(df.dtypes)
