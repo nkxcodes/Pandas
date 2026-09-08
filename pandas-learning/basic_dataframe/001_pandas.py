@@ -28,3 +28,7 @@ print(df.shape[1])
 
 # Q10: Find both rowa and columns using shape.
 print(df.shape)
+
+# Q11: Print all column names.
+print(df.columns) # or .tolist()
+print(df.columns.tolist())
