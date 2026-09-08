@@ -39,3 +39,6 @@ print(df.index.tolist())
 
 # Q13: Print the data types of every columns.
 print(df.dtypes)
+
+# Q14: Use info() to inspect the DataFrame.
+df.info()
