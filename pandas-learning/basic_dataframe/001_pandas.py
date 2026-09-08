@@ -42,3 +42,6 @@ print(df.dtypes)
 
 # Q14: Use info() to inspect the DataFrame.
 df.info()
+
+# Q15: Use describe() on the DataFrame.
+print(df.describe)
