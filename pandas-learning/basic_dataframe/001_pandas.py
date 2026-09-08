@@ -32,3 +32,7 @@ print(df.shape)
 # Q11: Print all column names.
 print(df.columns) # or .tolist()
 print(df.columns.tolist())
+
+# Q12: Print the DataFrame index.
+print(df.index) # or tolist()
+print(df.index.tolist())
