@@ -7,3 +7,6 @@ print(df["name"])
 
 # Print only the marks column.
 print(df["marks"])
+
+# Print name and marks.
+print(df[["name", "marks"]])
