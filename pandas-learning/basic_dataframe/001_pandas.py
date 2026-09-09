@@ -26,7 +26,7 @@ print(df.shape[0])
 # Q9: Print the number of columns.
 print(df.shape[1])
 
-# Q10: Find both rowa and columns using shape.
+# Q10: Find both rows and columns using shape.
 print(df.shape)
 
 # Q11: Print all column names.
@@ -45,3 +45,6 @@ df.info()
 
 # Q15: Use describe() on the DataFrame.
 print(df.describe)
+
+# Q16: Find the average marks.
+print(df["marks"].mean()) # Mean stands for average.
