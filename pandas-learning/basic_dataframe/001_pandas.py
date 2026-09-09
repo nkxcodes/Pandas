@@ -51,3 +51,6 @@ print(df["marks"].mean()) # Mean stands for average.
 
 # Q17: Find the maximum marks.
 print(df["marks"].max())
+
+# Q18: Find the minimum marks.
+print(df["marks"].min())
