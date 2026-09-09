@@ -57,3 +57,6 @@ print(df["marks"].min())
 
 # Q19: Find the average age.
 print(df["age"].mean())
+
+# Q20: Find how many students are present.
+print(len(df))
