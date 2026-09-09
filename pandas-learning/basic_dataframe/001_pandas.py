@@ -54,3 +54,6 @@ print(df["marks"].max())
 
 # Q18: Find the minimum marks.
 print(df["marks"].min())
+
+# Q19: Find the average age.
+print(df["age"].mean())
