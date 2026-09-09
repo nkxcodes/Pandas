@@ -48,3 +48,6 @@ print(df.describe)
 
 # Q16: Find the average marks.
 print(df["marks"].mean()) # Mean stands for average.
+
+# Q17: Find the maximum marks.
+print(df["marks"].max())
