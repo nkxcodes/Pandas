@@ -16,3 +16,6 @@ print(df[["name", "age", "city"]])
 
 # Q25: Store the marks column in a variable
 marks = df["marks"]
+
+# Q26: Check the type of that variable.
+print(type(marks))
