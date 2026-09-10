@@ -13,3 +13,6 @@ print(df[["name", "marks"]])
 
 # Q24: Print name, age and city.
 print(df[["name", "age", "city"]])
+
+# Q25: Store the marks column in a variable
+marks = df["marks"]
