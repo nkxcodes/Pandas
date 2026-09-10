@@ -22,3 +22,6 @@ print(type(marks))
 
 # Q27: Store name and marks in another DataFrame.
 student_df = df[["name", "marks"]]
+
+# Q28: Print the first 5 rows of name and marks.
+print(df[["name", "marks"]].head())
