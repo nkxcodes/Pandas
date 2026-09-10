@@ -19,3 +19,6 @@ marks = df["marks"]
 
 # Q26: Check the type of that variable.
 print(type(marks))
+
+# Q27: Store name and marks in another DataFrame.
+student_df = df[["name", "marks"]]
