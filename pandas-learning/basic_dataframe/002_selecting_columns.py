@@ -25,3 +25,6 @@ student_df = df[["name", "marks"]]
 
 # Q28: Print the first 5 rows of name and marks.
 print(df[["name", "marks"]].head())
+
+# Q29: Print all columns except gender.
+print(df.drop(columns=["gender"]))
