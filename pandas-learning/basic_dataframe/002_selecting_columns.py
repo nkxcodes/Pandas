@@ -45,3 +45,7 @@ print(df.drop(columns="age"))
 # Q31: Create a DataFrame containing only name, city and marks.
 print()
 df_2 = df[["name", "city", "marks"]]
+
+# Q32: Find the number of unique cities.
+print()
+print(df["city"].nunique())
