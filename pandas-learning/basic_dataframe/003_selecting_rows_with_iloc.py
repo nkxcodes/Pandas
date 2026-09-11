@@ -2,6 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("pandas-learning/data/students.csv")
 
+# iloc stands for integer location.
 # Q36: Select the first row using iloc.
 print()
 print(df.iloc[0])
@@ -37,3 +38,7 @@ print(df.iloc[2, 3])
 # Q44: Select every second row.
 print()
 print(df.iloc[::2]) # Start:End:Step
+
+# Q45: Select the last 5 rows using iloc.
+print()
+print(df.iloc[-1:-6:-1])
