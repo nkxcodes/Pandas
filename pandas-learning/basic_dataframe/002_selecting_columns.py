@@ -41,3 +41,7 @@ print(df.drop(columns=["gender"]))
 # Q30: Print all columns except age
 print()
 print(df.drop(columns="age"))
+
+# Q31: Create a DataFrame containing only name, city and marks.
+print()
+df_2 = df[["name", "city", "marks"]]
