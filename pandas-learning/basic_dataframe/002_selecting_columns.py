@@ -49,3 +49,12 @@ df_2 = df[["name", "city", "marks"]]
 # Q32: Find the number of unique cities.
 print()
 print(df["city"].nunique())
+
+# Q33: Find all unique cities.
+print()
+print(df["city"].unique())
+
+ # For not list output: 
+print()
+for city in df["city"].unique():
+    print(city)
