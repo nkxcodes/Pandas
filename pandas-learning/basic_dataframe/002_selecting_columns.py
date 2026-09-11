@@ -62,3 +62,12 @@ for city in df["city"].unique():
 # Q34: Find the number of unique genders.
 print()
 print(df["gender"].nunique())
+
+# Q35: Find all unique genders.
+print()
+print(df["gender"].unique())
+
+# For not list output:
+print()
+for gender in df["gender"].unique():
+    print(gender)
