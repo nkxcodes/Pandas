@@ -21,3 +21,7 @@ print(df.iloc[0:5].to_string(index=False)) # .to_string(index=False) is used to 
 # Q40: Select rows 5-10
 print()
 print(df.iloc[5:11].to_string(index=False))
+
+# Q41: Select the first 3 rows and first 3 columns.
+print()
+print(df.iloc[0:3, 0:3])
