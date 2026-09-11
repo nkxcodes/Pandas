@@ -25,3 +25,11 @@ print(df.iloc[5:11].to_string(index=False))
 # Q41: Select the first 3 rows and first 3 columns.
 print()
 print(df.iloc[0:3, 0:3])
+
+# Q42: Select the first 5 rows and only the name and marks columns using iloc.
+print()
+print(df.iloc[0:5, [1, 5]].to_string(index=False))
+
+# Q43: Select the third row and fourth column.
+print()
+print(df.iloc[2, 3])
