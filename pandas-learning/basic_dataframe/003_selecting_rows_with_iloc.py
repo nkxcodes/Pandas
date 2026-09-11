@@ -17,3 +17,7 @@ print(df.iloc[-1])
 # Q39: Select rows 0-4.
 print()
 print(df.iloc[0:5].to_string(index=False)) # .to_string(index=False) is used to not give index in the output
+
+# Q40: Select rows 5-10
+print()
+print(df.iloc[5:11].to_string(index=False))
