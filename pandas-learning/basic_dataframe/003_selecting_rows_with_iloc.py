@@ -33,3 +33,7 @@ print(df.iloc[0:5, [1, 5]].to_string(index=False))
 # Q43: Select the third row and fourth column.
 print()
 print(df.iloc[2, 3])
+
+# Q44: Select every second row.
+print()
+print(df.iloc[::2]) # Start:End:Step
