@@ -28,3 +28,6 @@ print(df[["name", "marks"]].head())
 
 # Q29: Print all columns except gender.
 print(df.drop(columns=["gender"]))
+
+# Q30: Print all columns except age
+print(df.drop(columns="age"))
