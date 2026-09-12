@@ -46,3 +46,7 @@ print(df.iloc[-1:-6:-1])
 # Q46: Reverse the order of the rows using iloc.
 print()
 print(df.iloc[::-1])
+
+# Q47: Select rows 2-7
+print()
+print(df.iloc[1:7])
