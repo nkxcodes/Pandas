@@ -42,3 +42,7 @@ print(df.iloc[::2]) # Start:End:Step
 # Q45: Select the last 5 rows using iloc.
 print()
 print(df.iloc[-1:-6:-1])
+
+# Q46: Reverse the order of the rows using iloc.
+print()
+print(df.iloc[::-1])
