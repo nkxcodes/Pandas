@@ -58,3 +58,7 @@ print(df.iloc[1:7, 0:4])
 # Q49: Select only the first column.
 print()
 print(df.iloc[:, 0]) # [:, 0] - Series, [:, [0]] - DataFrame
+
+# Q50: Select only the last column.
+print()
+print(df.iloc[:, -1])
