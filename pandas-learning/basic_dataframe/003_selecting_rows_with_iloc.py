@@ -50,3 +50,7 @@ print(df.iloc[::-1])
 # Q47: Select rows 2-7
 print()
 print(df.iloc[1:7])
+
+# Q48: Select rows 2-7 and columns 1-4:
+print()
+print(df.iloc[1:7, 0:4])
