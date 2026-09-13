@@ -67,3 +67,7 @@ print(df.iloc[:, -1])
 print()
 df = df.set_index('id')
 print(df)
+
+# Q52: Select the student with id 5.
+print()
+print(df.loc[5])
