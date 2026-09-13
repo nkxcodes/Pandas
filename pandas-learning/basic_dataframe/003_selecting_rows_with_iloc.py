@@ -75,3 +75,7 @@ print(df.loc[5])
 # Q53: Select students with IDs 3 through 7.
 print()
 print(df.loc[3:7])
+
+# Q54: Select name and marks for a particular ID.
+print()
+print(df.loc[3, 'name'])
