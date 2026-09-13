@@ -71,3 +71,7 @@ print(df)
 # Q52: Select the student with id 5.
 print()
 print(df.loc[5])
+
+# Q53: Select students with IDs 3 through 7.
+print()
+print(df.loc[3:7])
