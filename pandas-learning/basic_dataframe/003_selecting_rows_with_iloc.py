@@ -76,6 +76,10 @@ print(df.loc[5])
 print()
 print(df.loc[3:7])
 
-# Q54: Select name and marks for a particular ID.
+# Q54: Select name for a particular ID.
 print()
 print(df.loc[3, 'name'])
+
+# Q55: Select name and marks for a particular ID.
+print()
+print(df.loc[4, ['name', 'marks']])
