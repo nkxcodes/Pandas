@@ -62,3 +62,8 @@ print(df.iloc[:, 0]) # [:, 0] - Series, [:, [0]] - DataFrame
 # Q50: Select only the last column.
 print()
 print(df.iloc[:, -1])
+
+# Q51: Set id as the index.
+print()
+df = df.set_index('id')
+print(df)
