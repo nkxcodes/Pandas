@@ -87,3 +87,6 @@ print(df.loc[4, ['name', 'marks']])
 # Q56: Select all students whose id is greater than 5.
 print()
 print(df.loc[df.index > 5])
+
+# Q57: Reset the index.
+df = df.reset_index()
