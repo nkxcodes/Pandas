@@ -13,3 +13,7 @@ print(df[df['marks'] < 50])
 # Q63: Find the students whose marks are exactly 90.
 print()
 print(df[df['marks'] == 90])
+
+# Q64: Find students whose age is 18.
+print()
+print(df[df['age'] == 18])
