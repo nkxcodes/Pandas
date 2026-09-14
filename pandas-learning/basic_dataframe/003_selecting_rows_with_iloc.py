@@ -90,3 +90,6 @@ print(df.loc[df.index > 5])
 
 # Q57: Reset the index.
 df = df.reset_index()
+
+# Q58: Set name as the index.
+df = df.set_index('name')
