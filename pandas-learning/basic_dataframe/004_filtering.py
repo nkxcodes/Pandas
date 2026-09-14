@@ -9,3 +9,7 @@ print(df[df['marks'] > 80])
 # Q62: Find students whose marks are less than 50.
 print()
 print(df[df['marks'] < 50])
+
+# Q63: Find the students whose marks are exactly 90.
+print()
+print(df[df['marks'] == 90])
