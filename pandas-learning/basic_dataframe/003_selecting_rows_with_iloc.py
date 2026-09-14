@@ -93,3 +93,7 @@ df = df.reset_index()
 
 # Q58: Set name as the index.
 df = df.set_index('name')
+
+# Q59: Select a student using their name.
+print()
+print(df.loc['Kavya'])
