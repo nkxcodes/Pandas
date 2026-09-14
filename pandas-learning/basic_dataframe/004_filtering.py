@@ -33,3 +33,7 @@ print(df[df['gender'] == 'Male'])
 # Q68: Find female students.
 print()
 print(df[df['gender'] == 'Female'])
+
+# Q69: Find students with marks greater than and equal to 75.
+print()
+print(df[df['marks'] >= 75])
