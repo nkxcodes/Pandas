@@ -83,3 +83,7 @@ print(df.loc[3, 'name'])
 # Q55: Select name and marks for a particular ID.
 print()
 print(df.loc[4, ['name', 'marks']])
+
+# Q56: Select all students whose id is greater than 5.
+print()
+print(df.loc[df.index > 5])
