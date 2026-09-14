@@ -21,3 +21,7 @@ print(df[df['age'] == 18])
 # Q65: Find students from Delhi.
 print()
 print(df[df['city'] == 'Delhi'])
+
+# Q66: Find students from Mumbai.
+print()
+print(df[df['city'] == 'Mumbai'])
