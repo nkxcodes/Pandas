@@ -41,3 +41,7 @@ print(df[df['marks'] >= 75])
 # Q70: Find students with marks greater than and equal to 40.
 print()
 print(df[df['marks'] <= 40])
+
+# Q71: Find students between 60 and 80 marks.
+print()
+print(df[(df['marks'] >= 60) & (df['marks'] <= 80)])
