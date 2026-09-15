@@ -49,3 +49,7 @@ print(df[(df['marks'] >= 60) & (df['marks'] <= 80)])
 # Q72: Find students older than 17.
 print()
 print(df[df['age'] > 17])
+
+# Q73: Find students younger than 18.
+print()
+print(df[df['age'] < 18])
