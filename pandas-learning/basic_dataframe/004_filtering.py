@@ -73,3 +73,7 @@ print(df[(df['gender'] == 'Female') & (df['marks'] > 85)])
 # Q78: Find students who are either from Delhi or Mumbai.
 print()
 print(df[(df['city'] == 'Delhi') | (df['city'] == 'Mumbai')])
+
+# Q79: Find students who are NOT from Delhi.
+print()
+print(df[df['city'] != 'Delhi'])
