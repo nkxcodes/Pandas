@@ -77,3 +77,7 @@ print(df[(df['city'] == 'Delhi') | (df['city'] == 'Mumbai')])
 # Q79: Find students who are NOT from Delhi.
 print()
 print(df[df['city'] != 'Delhi'])
+
+# Q80: Find students whose marks are NOT greater than 80.
+print()
+print(df[df['marks'] <= 80])
