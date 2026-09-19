@@ -81,3 +81,8 @@ print(df[df['city'] != 'Delhi'])
 # Q80: Find students whose marks are NOT greater than 80.
 print()
 print(df[df['marks'] <= 80])
+
+# Level 6 - isin(), between(), conditions
+# Q81: Find students from Delhi, Mumbai, or Kolkata using isin().
+print()
+print(df['city'].isin(['Delhi', 'Mumbai', 'Kolkata']))
