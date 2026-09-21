@@ -90,3 +90,7 @@ print(df['city'].isin(['Delhi', 'Mumbai', 'Kolkata']))
 # Q82: Find students whose marks are between 70 and 90 using between().
 print()
 print(df['marks'].between(70, 90))
+
+# Q84: Find students whose gender is Male or Female using isin().
+print()
+print(df['marks'].isin(['Male', 'Female']))
