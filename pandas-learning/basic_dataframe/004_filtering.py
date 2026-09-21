@@ -91,6 +91,10 @@ print(df['city'].isin(['Delhi', 'Mumbai', 'Kolkata']))
 print()
 print(df['marks'].between(70, 90))
 
+# Q83: Find students whose age is either 17 or 18.
+print()
+print(df['age'].isin([17, 18]))
+
 # Q84: Find students whose gender is Male or Female using isin().
 print()
-print(df['marks'].isin(['Male', 'Female']))
+print(df['gender'].isin(['Male', 'Female']))
