@@ -85,16 +85,20 @@ print(df[df['marks'] <= 80])
 # Level 6 - isin(), between(), conditions
 # Q81: Find students from Delhi, Mumbai, or Kolkata using isin().
 print()
-print(df['city'].isin(['Delhi', 'Mumbai', 'Kolkata']))
+print(df[df['city'].isin(['Delhi', 'Mumbai', 'Kolkata'])])
 
 # Q82: Find students whose marks are between 70 and 90 using between().
 print()
-print(df['marks'].between(70, 90))
+print(df[df['marks'].between(70, 90)])
 
 # Q83: Find students whose age is either 17 or 18.
 print()
-print(df['age'].isin([17, 18]))
+print(df[df['age'].isin([17, 18])])
 
 # Q84: Find students whose gender is Male or Female using isin().
 print()
-print(df['gender'].isin(['Male', 'Female']))
+print(df[df['gender'].isin(['Male', 'Female'])])
+
+# Q85: Find students hose city is NOT Delhi.
+print()
+print(df[~df['city'].isin(['Delhi'])])
