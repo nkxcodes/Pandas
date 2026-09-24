@@ -102,3 +102,7 @@ print(df[df['gender'].isin(['Male', 'Female'])])
 # Q85: Find students hose city is NOT Delhi.
 print()
 print(df[~df['city'].isin(['Delhi'])])
+
+# Q86: Find students whose marks are NOT between 50 and 80.
+print()
+print(df[~df['marks'].between(50, 80)])
