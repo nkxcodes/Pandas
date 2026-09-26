@@ -110,3 +110,7 @@ print(df[~df['marks'].between(50, 80)])
 # Q87: Find students whose age is between 50 and 80.
 print()
 print(df[df['age'].between(17, 20)])
+
+# Q88: Find students from Delhi or Mumbai AND marks > 80.
+print()
+print(df[(df['city'].isin(['Delhi', 'Mumbai'])) & (df['marks'] > 80)])
