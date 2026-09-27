@@ -114,3 +114,7 @@ print(df[df['age'].between(17, 20)])
 # Q88: Find students from Delhi or Mumbai AND marks > 80.
 print()
 print(df[(df['city'].isin(['Delhi', 'Mumbai'])) & (df['marks'] > 80)])
+
+# Q89: Find students from Delhi or Mumbai OR marks > 80.
+print()
+print(df[(df['city'].isin(['Delhi', 'Mumbai']) | (df['marks'] > 80))])
