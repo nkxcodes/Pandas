@@ -118,3 +118,8 @@ print(df[(df['city'].isin(['Delhi', 'Mumbai'])) & (df['marks'] > 80)])
 # Q89: Find students from Delhi or Mumbai OR marks > 80.
 print()
 print(df[(df['city'].isin(['Delhi', 'Mumbai']) | (df['marks'] > 80))])
+
+# Q90: Count how many students satisfy a particular condition.
+print()
+count = (df['marks'] >= 70).sum()
+print(count)
