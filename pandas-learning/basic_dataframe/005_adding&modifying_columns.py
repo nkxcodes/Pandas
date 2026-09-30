@@ -6,3 +6,8 @@ df = pd.read_csv('pandas-learning/data/students.csv')
 print()
 df['passed'] = df['marks'] >= 33
 print(df[df['passed']])
+
+# Q92: Create failed column.
+print()
+df['failed'] = df['marks'] < 33
+print(df[df['failed']])
