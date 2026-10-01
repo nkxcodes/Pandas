@@ -11,3 +11,8 @@ print(df[df['passed']])
 print()
 df['failed'] = df['marks'] < 33
 print(df[df['failed']])
+
+# Q93: Create a bonus_marks column containing 5 for everyone.
+print()
+df['bonus_marks'] = 5
+print(df)
