@@ -16,3 +16,8 @@ print(df[df['failed']])
 print()
 df['bonus_marks'] = 5
 print(df)
+
+# Q94: Create final_marks = marks + bonus_marks
+print()
+df['final_marks'] = df['marks'] + df['bonus_marks']
+print(df)
